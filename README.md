@@ -1,4 +1,15 @@
-# 📘 Computer Networks – Chapters List
+## 🌐 **Computer Networks**
+
+A **computer network** is a system where two or more computers (or devices) are connected together to **share data, resources, and communication**.
+
+* It can connect devices locally (LAN) or worldwide (Internet).
+* Networks use hardware (cables, routers, switches) and software (protocols like TCP/IP) to transfer information.
+* They allow **file sharing, internet access, email, video calls, online banking, cloud storage**, and much more.
+
+> In short → **Computer Networks connect devices to make communication and resource sharing faster, easier, and more reliable.**
+
+
+### 📘 Computer Networks – Chapters List
 
 1. **Introduction to Computer Networks**  *(basic concepts, types, topologies)*
 2. **Network Models (OSI & TCP/IP)**  *(foundation of networking)*
@@ -15,9 +26,7 @@
 13. Network Management *(SNMP, performance monitoring)*
 14. Emerging Trends in Networking *(Cloud, IoT, SDN, AI in networks)*
 
----
-
-## **Most Important Chapters (Must Focus)**
+## **Most Important Chapters**
 
 * Introduction to Computer Networks
 * Network Models (OSI & TCP/IP)
@@ -26,3 +35,4 @@
 * Transport Layer
 * Application Layer
 * Network Security
+
