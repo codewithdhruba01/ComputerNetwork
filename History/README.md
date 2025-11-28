@@ -1,4 +1,4 @@
-## 🌍 History of the Internet – Step by Step
+## History of the Internet
 
 ### 1. **Early Concepts (1950s – 1960s)**
 
@@ -8,16 +8,12 @@
 * In 1962, **J.C.R. Licklider** at MIT proposed the concept of a **“Galactic Network”** where computers around the world would be interconnected.
 * This was the seed of the Internet idea.
 
----
-
 ### 2. **Birth of ARPANET (1969)**
 
 * The **U.S. Department of Defense** created a project called **ARPANET** (Advanced Research Projects Agency Network).
 * **Why ARPANET?** → To allow communication between computers in case of war (so information could survive even if part of the network was destroyed).
 * **First message**: In 1969, UCLA sent a message to Stanford. The intended word was **“LOGIN”**, but the system crashed after sending just **“LO”**.
 * Still, it was the **first ever internet message**.
-
----
 
 ### 3. **Development of Networking Protocols (1970s)**
 
@@ -26,7 +22,6 @@
 * TCP/IP made it possible for different types of computers to talk to each other.
 * In **1971**, **Email** was invented by Ray Tomlinson, and it became the first “killer app” of the internet.
 
----
 
 ### 4. **Expansion of Networks (1980s)**
 
@@ -35,8 +30,6 @@
 * Universities and research institutions began connecting their computers.
 * In **1984**, the **Domain Name System (DNS)** was created, introducing extensions like **.com, .org, .edu**.
 * This made it easier to access websites instead of using long numerical addresses.
-
----
 
 ### 5. **Birth of the World Wide Web (1990s)**
 
@@ -48,7 +41,6 @@
   * **Web Browser** (first one was called WorldWideWeb, later renamed Nexus).
 * In **1991**, the Web became public, and the **Internet transformed into a global network**.
 
----
 
 ### 6. **Commercialization of the Internet (1990s)**
 
@@ -58,7 +50,6 @@
 * **Search engines** appeared → Yahoo (1994), Google (1998).
 * Internet spread rapidly among households.
 
----
 
 ### 7. **Broadband & Social Media Era (2000s)**
 
@@ -66,8 +57,6 @@
 * Rise of **Social Media**: LinkedIn (2003), Facebook (2004), YouTube (2005), Twitter (2006).
 * The internet became interactive → called **Web 2.0** (users could now create content, not just consume).
 * Online communication exploded with instant messaging, blogs, and online communities.
-
----
 
 ### 8. **Mobile Internet & Cloud Era (2010s)**
 
@@ -77,7 +66,6 @@
 * Streaming services (Netflix, Spotify) replaced CDs and DVDs.
 * The internet became essential in everyday life.
 
----
 
 ### 9. **Modern Internet (2020s – Present)**
 
@@ -86,7 +74,6 @@
 * **Remote work, online education, e-commerce, and video calls** became more popular after the COVID-19 pandemic.
 * The internet today is a mix of **social, economic, cultural, and technological life**.
 
----
 
 ## Key Points Summary
 
