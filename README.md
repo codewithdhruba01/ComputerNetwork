@@ -1,30 +1,21 @@
-## 🌐 **Computer Networks**
+## **Computer Networks**
+These notes cover all important CN topics: basics, OSI, TCP/IP, routing, switching, IP, error control, congestion, transport layer, security, etc.
 
-A **computer network** is a system where two or more computers (or devices) are connected together to **share data, resources, and communication**.
-
-* It can connect devices locally (LAN) or worldwide (Internet).
-* Networks use hardware (cables, routers, switches) and software (protocols like TCP/IP) to transfer information.
-* They allow **file sharing, internet access, email, video calls, online banking, cloud storage**, and much more.
-
-> In short → **Computer Networks connect devices to make communication and resource sharing faster, easier, and more reliable.**
-
-
-### 📘 Computer Networks – Chapters List
+###  Computer Networks – Chapters List
 
 1. **Introduction to Computer Networks**  *(basic concepts, types, topologies)*
-2. **Network Models (OSI & TCP/IP)**  *(foundation of networking)*
-3. **Physical Layer** *(transmission media, signals)*
-4. **Data Link Layer**  *(framing, error detection, Ethernet, Wi-Fi)*
-5. **Network Layer**  *(IP addressing, routing, subnetting)*
-6. **Transport Layer**  *(TCP vs UDP, flow & congestion control)*
-7. Session Layer *(sessions, dialog control)*
-8. Presentation Layer *(encryption, compression, data translation)*
-9. **Application Layer** *(HTTP, FTP, DNS, Email protocols)*
-10. **Network Security**  *(encryption, firewalls, attacks)*
-11. Wireless & Mobile Networks *(Wi-Fi, Bluetooth, 3G–5G, roaming)*
-12. Multimedia Networking *(streaming, VoIP, QoS)*
-13. Network Management *(SNMP, performance monitoring)*
-14. Emerging Trends in Networking *(Cloud, IoT, SDN, AI in networks)*
+2. **Computer Network Topologies**
+3. **Network Models**
+4. **Physical Layer**
+5. **Data Link Layer**
+6. **Network Layer**
+7. **Transport Layer**
+8. **Application Layer**
+9. **Network Protocols**
+10. **Network Algorithms**
+11. **Wireless Networks**
+12. **Multiplexing Network**
+13. **Miscellaneous Network**
 
 ## **Most Important Chapters**
 
@@ -35,4 +26,3 @@ A **computer network** is a system where two or more computers (or devices) are 
 * Transport Layer
 * Application Layer
 * Network Security
-
