@@ -75,3 +75,71 @@ The following are the **types of computer networks**:
 
 * **Virtual Private Network (VPN):**
   A secure network that uses the internet to connect remote users to a private network.
+
+---
+
+## **1. Resource Sharing**
+
+* Network ka main purpose → **resource share karna**.
+* Ek computer ke programs, data, printer, storage dusre computers use kar sakte hain.
+* **Load sharing**: Ek bada kaam network ke multiple computers me divide hokar fast ho jata hai.
+
+## **2. Simultaneous Access**
+
+* Multiple users **ek hi file/data ko ek saath** access aur update kar sakte hain.
+* Data usually **file server** me store hota hai.
+* Ek user agar file change karta hai → sabko latest version milega.
+
+## **3. High Reliability**
+
+* Important data **multiple computers** me stored hota hai.
+* Agar ek computer fail ho jaye → data dusre computer se recover ho jata hai.
+* Network makes data **secure and reliable**.
+
+## **4. Cost Reduction**
+
+* Devices share hone se **cost kam hoti hai**.
+* Chote computers (microcomputers) cheap hote hain but performance acchi dete hain.
+* Network se resources buy karna kaafi **cost-effective** hota hai.
+
+## **5. Communication Medium**
+
+* Network long-distance communication ko easy banata hai.
+* Do ya zyada log ek project par milkar kaam kar sakte hain.
+
+## Uses of Computer Networks (Most Important)
+
+## **1. Access to Remote Information**
+
+Examples:
+
+* Online shopping, bill payment, e-banking
+* Internet se information: news, sports, science, government info
+* Online newspaper reading
+
+## **2. Person-to-Person Communication**
+
+### **E-mail**
+
+Steps:
+
+1. User message likhta hai
+2. Server me store hota hai
+3. Server receiver ko alert karta hai
+4. Receiver message read karta hai
+
+### **Teleconferencing / Videoconferencing**
+
+* Log typing se online meeting karte hain.
+* Video conferencing me face-to-face baat bhi possible hoti hai.
+
+## **3. Worldwide Newsgroups**
+
+* Ek person information post karta hai
+* Others feedback/comment de sakte hain
+
+## **4. Interactive Entertainment**
+
+* **Video on demand:** Online movies dekh sakte ho
+* **Online gaming:** Multi-player real-time games
+* Quiz, contest, discussion type live programs me participate karna
