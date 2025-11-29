@@ -299,3 +299,76 @@ Internet is involved in many aspects of life, such as:
 | **Reliability**     | Low                                   | High                                 | Higher                           | Highest (multiple backups)              |
 
 
+# **Ethernet**
+Ethernet is the **most common technology** used in a LAN (Local Area Network).
+It connects computers through a switch or hub.
+
+### **Important Points:**
+
+* Invented in the 1970s, standard: **IEEE 802.3**
+* Ethernet uses shared media → **data collisions can happen**
+* To detect collisions, it uses **CSMA/CD**
+* Every Ethernet device has a **48-bit MAC address** (unique identity)
+* Traditional Ethernet speed → **10 Mbps** (10BASE-T)
+* Cables used: **Coaxial or Cat-5 with RJ-45 connector**
+* Topology: **Star topology**
+* Max cable length: **100 meters**
+
+# **Fast Ethernet**
+Fast Ethernet is a **faster version** of normal Ethernet.
+
+### **Important Points:**
+
+* Speed: **100 Mbps**
+* Standard: **100BASE-T**
+* Works on **Cat-5 cable**
+* Wireless Fast Ethernet uses **CSMA/CA**
+* Fiber version: **100BASE-FX**
+* Fiber cable range:
+
+  * **100 m** (half-duplex)
+  * **2000 m** (full-duplex)
+
+
+# **Gigabit Ethernet**
+Gigabit Ethernet is an **even faster** type of Ethernet.
+
+### **Important Points:**
+
+* Speed: **1000 Mbps = 1 Gbps**
+* Introduced after 1995
+* Uses **Cat-5, Cat-5e, Cat-6 cables**
+* Standard: **IEEE 802.3ab**
+* Fiber version: **IEEE 802.3ah**
+
+Most modern networks use Gigabit Ethernet because it is very fast.
+
+# **Virtual LAN (VLAN)**
+In a normal Ethernet network:
+
+* There is **one broadcast domain** (everyone receives broadcast messages)
+* There is **one collision domain**
+
+Switches can separate collision domains,
+but **broadcast domain remains the same**.
+
+### **What does VLAN do?**
+VLAN divides a single network into **multiple small networks (groups)** inside the same switch.
+
+### **Example:**
+
+In a switch with 10 computers:
+
+* 5 computers → VLAN 10
+* 5 computers → VLAN 20
+
+Now:
+
+* Computers in VLAN 10 can talk only to each other
+* Computers in VLAN 20 can talk only to each other
+* A device in one VLAN **cannot communicate** with another VLAN directly
+
+### **Important:**
+
+* VLAN is a **Layer-2 technology**
+* To communicate between two VLANs, a **Router (Layer-3 device)** is required
