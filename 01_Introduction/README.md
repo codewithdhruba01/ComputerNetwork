@@ -470,3 +470,75 @@ Identifies hosts and finds best path for data.
 
 Handles sending and receiving actual data frames.
 Independent of hardware and network architecture.
+
+---
+
+## **Computer Network Security**
+
+During the initial days of the internet, its use was limited to military and universities for research and development purposes.
+Later, when all networks merged together and formed the internet, the data started traveling through public networks.
+People began sending highly sensitive data such as bank credentials, usernames and passwords, personal documents, online shopping details, or confidential information.
+
+All security threats are **intentional**, meaning they occur only when triggered on purpose. Security threats can be divided into the following categories:
+
+
+## **Interruption**
+
+Interruption is a security threat where the **availability** of resources is attacked. For example, a user is unable to access a web server, or the website is hijacked.
+
+## **Privacy Breach**
+
+In this threat, the **privacy of a user is compromised**.
+Someone who is not authorized is accessing or intercepting the data sent or received by the genuine user.
+
+## **Integrity**
+
+This threat includes **alteration or modification** of data during communication. The attacker intercepts the data, modifies it, or creates false data and sends it to the receiver.
+The receiver receives the data believing it came from the original sender.
+
+## **Authenticity**
+This threat occurs when an attacker **pretends to be a genuine user** and accesses resources or communicates with genuine users.
+
+> No technique can provide **100% security**, but steps can be taken to secure data while it travels in an unsecured network.
+The most widely used technique is **Cryptography**.
+
+## **Cryptography**
+Cryptography is a technique used to **encrypt plain-text data**, making it difficult to understand or interpret.
+Several cryptographic algorithms are used today:
+
+* **Secret Key Encryption**
+* **Public Key Encryption**
+* **Message Digest**
+
+## **Secret Key Encryption**
+
+Both sender and receiver share **one secret key**.
+This key is used to encrypt data at the sender's end. After encryption, the data is sent to the receiver.
+Because the receiver also has the same secret key, the encrypted data can be easily decrypted.
+
+**Example:**
+Data Encryption Standard (DES).
+In Secret Key encryption, every host must have a separate key, which makes it difficult to manage.
+
+## **Public Key Encryption**
+In this system, every user has **two keys**:
+
+* **Private (Secret) Key** – kept hidden
+* **Public Key** – shared publicly
+
+The sender uses the **receiver’s public key** to encrypt data.
+The receiver decrypts it using their **own private key**.
+
+**Example:**
+RSA (Rivest–Shamir–Adleman)
+
+## **Message Digest**
+
+In this method, actual data is **not sent**.
+Instead, a **hash value** of the data is calculated and sent.
+The receiver calculates a hash on their side and compares it with the received one.
+If both hash values match, the message is accepted; otherwise, it is rejected.
+
+**Example:**
+MD5 hashing
+Widely used in authentication where passwords are compared with stored hash values.
