@@ -372,3 +372,101 @@ Now:
 
 * VLAN is a **Layer-2 technology**
 * To communicate between two VLANs, a **Router (Layer-3 device)** is required
+
+
+## **Networking Engineering**
+Networking engineering is a complicated task that involves software, firmware, chip-level engineering, hardware, and electric pulses.
+To make networking easier, the whole networking concept is divided into **multiple layers**.
+
+Each layer performs a specific task and is independent from other layers.
+But almost all networking tasks depend on all layers collectively.
+Layers share data with each other and depend on each other to take input and send output.
+
+## **Layered Tasks**
+In a layered network model, the whole networking process is divided into **small tasks**.
+Each task is assigned to a particular layer, and each layer works **dedicatedly** on its own work.
+
+In layered communication:
+* One layer of a device communicates with the **same layer** on another device (peer-to-peer communication).
+* The task can start from the top layer or bottom layer.
+* If the task starts at the top, it goes down layer by layer.
+* If it starts at the bottom, it travels upward.
+
+Each layer has its own protocols, procedures, and functions.
+Layers identify their counterparts using **encapsulation headers and tails**.
+
+
+## **OSI Model**
+OSI (Open System Interconnect) model is an **open standard** for all communication systems.
+It was developed by the **International Standard Organization (ISO)**.
+
+The OSI model has **seven layers**:
+
+1. **Application Layer**
+2. **Presentation Layer**
+3. **Session Layer**
+4. **Transport Layer**
+5. **Network Layer**
+6. **Data Link Layer**
+7. **Physical Layer**
+
+
+### **Application Layer**
+Provides interface to the user through protocols that interact directly with applications.
+
+### **Presentation Layer**
+Defines how data from the remote host should be presented in the native format.
+
+### **Session Layer**
+Maintains communication sessions between hosts.
+Example: After login, the session remains active for some time without re-authentication.
+
+### **Transport Layer**
+Provides **end-to-end delivery** between hosts.
+
+### **Network Layer**
+
+Responsible for **address assignment** and uniquely identifying hosts in the network.
+
+### **Data Link Layer**
+Handles reading and writing data on the physical line. Detects **link-level errors**.
+
+### **Physical Layer**
+Defines the hardware, cabling, data pulses, power output, etc.
+
+# **Internet Model (TCP/IP Model)**
+
+Internet uses the **TCP/IP protocol suite**, also called the **Internet Model**.
+It has **4 layers** and is used for all communication over the internet.
+
+Unlike OSI, the Internet Model depends on network independence.
+
+Its layers are:
+
+1. **Application Layer**
+2. **Transport Layer**
+3. **Internet Layer**
+4. **Link Layer**
+
+### **Application Layer**
+Defines protocols that allow users to interact with the network.
+Examples: **FTP, HTTP**
+
+### **Transport Layer**
+
+Defines how data should flow between hosts. Main protocol: **TCP (Transmission Control Protocol)**
+Ensures:
+
+* Ordered delivery
+* Reliable transfer
+* End-to-end communication
+
+### **Internet Layer**
+
+Uses **Internet Protocol (IP)** for addressing and routing.
+Identifies hosts and finds best path for data.
+
+### **Link Layer**
+
+Handles sending and receiving actual data frames.
+Independent of hardware and network architecture.
