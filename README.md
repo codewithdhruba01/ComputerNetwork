@@ -1,5 +1,6 @@
 ## **Computer Networks**
-These notes cover all important CN topics: basics, OSI, TCP/IP, routing, switching, IP, error control, congestion, transport layer, security, etc.
+This repository contains well-structured, exam-oriented, and industry-relevant notes for Computer Networks (CN).
+All concepts are written in simple language with clear explanations — perfect for revision, viva, interviews, and semester exams.
 
 ###  Computer Networks – Chapters List
 
@@ -26,3 +27,4 @@ These notes cover all important CN topics: basics, OSI, TCP/IP, routing, switchi
 * Transport Layer
 * Application Layer
 * Network Security
+
