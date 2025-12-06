@@ -671,3 +671,93 @@ Two main protocol suites:
 | **Bridge**             | Connects network segments            |
 | **Network OS**         | Manages network operations           |
 | **Protocol Suite**     | Rules for communication              |
+
+
+# **What are Connectors?**
+
+Connectors are devices used to **connect network cables** to computers and network devices like PCs, hubs, switches, servers, and workstations.
+
+They connect the **guided (wired)** transmission media to the device.
+
+Connectors have two types:
+
+* **Male connectors** → plugs
+* **Female connectors** → ports/sockets
+
+## **Types of Connectors**
+
+There are several types of connectors used in networking:
+
+# **1. Twisted Pair Cable Connectors**
+
+Most modern networks use twisted pair cabling (UTP or STP).
+
+* **UTP (Unshielded Twisted Pair)** is more common because it is cheaper and easy to install.
+* The standard connector used with UTP cables is **RJ45**.
+
+### **RJ45 Connector**
+
+* Full form: **Registered Jack 45**
+* Looks similar to telephone connectors but larger
+* Used in LAN cables (Ethernet cables)
+
+---
+
+# **2. Coaxial Cable Connectors**
+
+For coaxial cables, we need special connectors.
+
+### **BNC Connector**
+
+* Full form: **Bayonne Neill Concelman**
+* Most commonly used connector for coaxial cables
+* Often used with a **BNC T-connector** or **BNC terminator**
+
+BNC connectors are used in:
+
+* Old Ethernet networks
+* CCTV systems
+* Radio equipment
+
+---
+
+# **3. Fiber-Optic Cable Connectors**
+
+Fiber optic cables use **light** to transmit data, so they need special connectors.
+
+There are 3 common types:
+
+### **SC Connector (Subscriber Channel)**
+
+* Used for cable TV and networking
+* Uses **push/pull locking** system
+* Very reliable
+
+### **ST Connector**
+
+* Used to connect fiber wire to networking devices
+* Uses a **bayonet locking system** (twist and lock)
+* Strong and secure connection
+* More reliable than SC in some cases
+
+### **MT-RJ Connector**
+
+* Stands for **Mechanical Transfer Registered Jack**
+* Similar in size to an RJ45 connector
+* Used for compact fiber connections
+* Has two fibers:
+
+  * **RX (Receive)**
+  * **TX (Transmit)**
+
+
+## **Simple Summary Table**
+
+| Connector Type | Used For              | Looks Like            | Notes                      |
+| -------------- | --------------------- | --------------------- | -------------------------- |
+| **RJ45**       | UTP cables (Ethernet) | Like big phone plug   | Most common in LAN         |
+| **BNC**        | Coaxial cables        | Round metal connector | Used in CCTV, old networks |
+| **SC**         | Fiber optic           | Push/pull connector   | Reliable, used in cable TV |
+| **ST**         | Fiber optic           | Twist-lock connector  | Very strong and secure     |
+| **MT-RJ**      | Fiber optic           | Small like RJ45       | Has TX and RX ports        |
+
