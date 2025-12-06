@@ -542,3 +542,132 @@ If both hash values match, the message is accepted; otherwise, it is rejected.
 **Example:**
 MD5 hashing
 Widely used in authentication where passwords are compared with stored hash values.
+
+---
+
+## **Computer Network Components**
+
+Computer networks are made of **hardware components** and **software components**.
+Both are needed to create a working network at home or in organizations.
+
+* **Hardware components** → server, client, peer, transmission media, connecting devices.
+* **Software components** → operating system and network protocols.
+
+## **1. Computer Network Hardware Components**
+
+These are the **physical parts** of the network.
+
+### **Servers**
+
+* High-performance computers that manage network resources.
+* Store data, applications, printers, databases, etc.
+* Examples: file server, database server, print server.
+
+### **Clients**
+
+* Normal computers that request services from servers.
+* Users work on these to access files, apps, printers, etc.
+
+### **Peers**
+
+* Computers that act as both **clients and servers**.
+* Used in small peer-to-peer networks.
+
+### **Transmission Media**
+
+* Channels through which data travels in a network.
+* Example: **coaxial cable, fiber optic cable, Cat-5/6 cables, microwaves, infrared waves**.
+* Can be **guided** (with cable) or **unguided** (wireless).
+
+### **Connecting Devices**
+
+Used to connect computers or networks together.
+Examples:
+
+* **Routers**
+* **Hubs**
+* **Switches**
+* **Bridges**
+* **Repeaters**
+* **Gateways**
+
+## **2. Connecting Devices**
+
+### **Hub**
+
+* A basic device that connects multiple computers.
+* Works on **Physical Layer** of OSI Model.
+* Broadcasts data to all devices → causes collisions.
+
+### **Switch**
+
+* Advanced version of a hub.
+* Sends data to the **correct device only**, not all.
+* Reduces collisions.
+* Commonly used in **LANs**.
+
+### **Bridge**
+
+* Connects two network segments.
+* Reduces traffic.
+* Works on **Data Link Layer**.
+
+### **Router**
+
+* Routes data between **different networks** (LAN to Internet).
+* Works on **Network Layer**.
+* Can assign IP addresses and perform security filtering & QoS.
+
+### **Gateway**
+
+* Connects two networks having **different protocols**.
+* Can work on multiple OSI layers.
+* Converts data formats.
+
+### **Repeater**
+
+* Boosts weak signals and regenerates them.
+* Used in long-distance communication.
+
+## **3. Computer Network Software Components**
+
+These are the programs and rules used to operate the network.
+
+### **Networking Operating System**
+
+* Installed on servers.
+* Helps users share files, databases, applications, printers, etc.
+* Examples: Windows Server, Linux Server.
+
+### **Protocol Suite**
+
+A protocol is a **set of rules** for communication.
+Protocols ensure that all computers follow the same method to send/receive data.
+
+Two main protocol suites:
+
+### a) **OSI Model (Open System Interconnection)**
+
+* A 7-layer standard model used for understanding networking.
+
+### b) **TCP/IP Model**
+
+* A 4-layer model used by the **Internet**.
+* Practical and widely used for real networks.
+
+## **Super Simple Summary**
+
+| Component              | Meaning                              |
+| ---------------------- | ------------------------------------ |
+| **Server**             | Provides services and resources      |
+| **Client**             | Requests and uses services           |
+| **Peer**               | Acts as both server and client       |
+| **Transmission Media** | Path for data (cables/wireless)      |
+| **Hub**                | Sends data to all devices            |
+| **Switch**             | Sends data to correct device         |
+| **Router**             | Connects different networks          |
+| **Repeater**           | Strengthens weak signals             |
+| **Gateway**            | Connects different protocol networks |
+| **Bridge**             | Connects network segments            |
+| **Network OS**         | Manages network operations           |
+| **Protocol Suite**     | Rules for communication              |
