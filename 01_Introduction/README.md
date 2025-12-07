@@ -761,3 +761,73 @@ There are 3 common types:
 | **ST**         | Fiber optic           | Twist-lock connector  | Very strong and secure     |
 | **MT-RJ**      | Fiber optic           | Small like RJ45       | Has TX and RX ports        |
 
+# **Gateways in Computer Networks**
+
+A **gateway** is a network device that connects **two different networks** that use **different transmission protocols**.
+
+It acts like a **bridge** between two networks that cannot communicate directly.
+
+* The most common type of gateway works at **Layer 3 (Network Layer)** of the OSI model.
+* But depending on the function, a gateway can operate at **any layer** of the OSI model.
+
+A gateway is the **entry and exit point** of a network.
+All traffic going outside the LAN must pass through the gateway. Internal LAN traffic does NOT pass through it.
+
+# **Features of Gateways**
+
+* Located at the **boundary of a network** and manages incoming and outgoing data
+* Connects **two networks with different protocols**
+* Works as a **protocol converter** to make both networks compatible
+* Can operate on **any OSI layer**
+* Stores routing information and helps in path selection
+* Can work as a **proxy server** or **firewall** in enterprise networks
+* Usually implemented as a device with **multiple NICs (Network Interface Cards)**
+* Can also be created using **software**
+* Uses **packet switching** to transmit data
+
+
+# **Types of Gateways**
+
+## **1. Unidirectional Gateway**
+
+* Data flows in **only one direction**
+* Changes made at the source are copied to the destination
+* Destination cannot send back changes
+* Used in **data archiving** and backup systems
+
+## **2. Bidirectional Gateway**
+
+* Data flows in **both directions**
+* Used for **synchronization** tasks
+
+# **Types of Gateways**
+
+## **1. Network Gateway**
+
+* Most commonly used gateway
+* Connects two networks with different protocols
+* If someone says “gateway” without specifying, this is usually what they mean
+
+## **2. Cloud Storage Gateway**
+
+* Connects private storage systems to cloud storage
+* Translates cloud APIs like **SOAP** or **REST**
+* Helps add private storage to cloud applications without moving all data to the cloud
+
+## **3. Internet-To-Orbit Gateway (I2O)**
+
+* Connects internet devices to satellites or spacecraft systems
+* Used in scientific missions
+* Examples: Project HERMES, GENSO
+
+## **4. IoT Gateway**
+
+* Connects **IoT devices** (sensors, smart devices) to cloud servers
+* Translates sensor data into formats cloud systems can understand
+* Provides connectivity between IoT networks and applications
+
+## **5. VoIP Trunk Gateway**
+
+* Connects traditional telephone systems to VoIP networks
+* Used to send voice signals over the internet
+* Converts analog phone signals into digital VoIP signals
