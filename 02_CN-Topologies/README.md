@@ -131,3 +131,103 @@ It combines the advantages of all included topologies.
 * Most reliable and flexible.
 * **Internet** is the biggest example of a hybrid topology.
 
+---
+
+# **Point-to-Point (PPP) Network Topology**
+Point-to-Point Protocol (PPP) is a communication protocol used at the **Data Link Layer** to transfer data between **two directly connected devices**.
+It is a **byte-oriented protocol** and is widely used in broadband connections where data transfer needs to be fast and reliable.
+PPP sends data in the form of **frames** and is also defined in **RFC 1661**.
+
+## **Services Provided by PPP**
+PPP provides several important services while creating and managing a point-to-point link:
+
+* **Defines frame format** for sending data.
+* **Defines how to establish a link** between two devices and exchange data.
+* **Explains how network layer data** should be encapsulated inside the frame.
+* **Provides authentication rules** for verifying the communicating devices.
+* **Assigns addresses** needed for network communication.
+* **Supports communication over multiple links**.
+* **Supports multiple network layer protocols**, giving flexibility.
+
+
+## **Components of PPP**
+PPP is a layered protocol with **three main components**:
+
+### 1. **Encapsulation Component**
+Used for converting the datagram into a format that can be transmitted over the physical layer.
+
+### 2. **Link Control Protocol (LCP)**
+
+Responsible for:
+
+* Establishing
+* Configuring
+* Testing
+* Maintaining
+* Terminating
+
+the point-to-point link.
+LCP also handles negotiation for options like link quality, authentication, etc.
+
+### 3. **Authentication Protocols (AP)**
+
+Used to authenticate the endpoints before communication.
+
+PPP uses two authentication protocols:
+
+* **PAP (Password Authentication Protocol)**
+  Sends username and password for authentication (less secure).
+
+* **CHAP (Challenge Handshake Authentication Protocol)**
+  More secure; uses a challenge-response mechanism.
+
+
+## **Network Control Protocols (NCPs)**
+
+NCPs help configure different network-layer protocols over PPP.
+Each supported protocol has its own NCP.
+
+Common NCPs include:
+
+* IPCP – Internet Protocol Control Protocol
+* OSINLCP – OSI Network Layer Control Protocol
+* IPXCP – Internetwork Packet Exchange Control Protocol
+* DNCP – DECnet Phase IV Control Protocol
+* NBFCP – NetBIOS Frames Control Protocol
+* IPV6CP – IPv6 Control Protocol
+
+
+## **PPP Frame Format**
+PPP uses a **byte-oriented frame structure**, where each field is made of one or more bytes.
+
+### The fields of a PPP frame are:
+
+* **Flag (1 byte)**
+  Marks the start and end of a frame. Bit pattern: `01111110`
+
+* **Address (1 byte)**
+  Used for broadcast; fixed value: `11111111`
+
+* **Control (1 byte)**
+  Usually set to a constant value: `11000000`
+
+* **Protocol (1–2 bytes)**
+  Specifies the type of payload inside the frame.
+
+* **Payload (variable length)**
+  Actual data coming from the network layer.
+  Maximum length: **1500 bytes** (negotiable).
+
+* **FCS (2 or 4 bytes)**
+  Frame Check Sequence for error detection (uses CRC).
+
+## **Byte Stuffing in PPP Frame**
+
+Byte stuffing is used when the payload accidentally contains a **flag byte** (01111110).
+To avoid confusion, PPP inserts an **escape byte (01111101)** before any data byte that looks like the flag or escape byte.
+
+When the receiver gets the frame:
+
+* It recognizes the escape byte
+* Removes it,
+* And restores the original data.
