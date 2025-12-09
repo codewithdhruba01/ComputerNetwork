@@ -231,3 +231,45 @@ When the receiver gets the frame:
 * It recognizes the escape byte
 * Removes it,
 * And restores the original data.
+
+---
+
+# **Bus Topology**
+
+Bus Topology is one of the simplest types of network topologies where **all devices are connected to a single central cable**, known as the **bus** or **backbone cable**.
+Every device shares this same communication line to send and receive data.
+
+> When a device sends data, the message travels through this central cable, and **all devices receive it**, but only the device with the correct address accepts it.
+
+## **How Bus Topology Works**
+
+* A single long cable connects all computers and network devices.
+* Devices tap into the cable using connectors.
+* Data is transmitted in **one direction** at a time.
+* **Terminators** are placed at both ends of the bus cable to absorb signals and prevent bounce-back.
+
+## **Features of Bus Topology**
+
+* All devices share **one communication line**.
+* Uses techniques like **CSMA/CD** to avoid collisions.
+* Only one device can send data at a time.
+* Easy to connect a new device by simply adding it to the bus.
+
+## **Advantages of Bus Topology**
+
+* Very simple and easy to install.
+* Cost-effective because it uses less cable compared to other topologies.
+* Good for small networks like home networks or small offices.
+
+
+## **Disadvantages of Bus Topology**
+
+* If **main bus cable fails**, the whole network stops working.
+* Performance decreases when many devices send data at the same time.
+* Troubleshooting cable faults is difficult.
+* Not suitable for large networks.
+
+**Examples**
+
+* Early Ethernet networks
+* Small office networks using coaxial cable
