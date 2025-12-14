@@ -273,3 +273,46 @@ Every device shares this same communication line to send and receive data.
 
 * Early Ethernet networks
 * Small office networks using coaxial cable
+
+---
+
+# Star Topology
+
+A **Star Network Topology** is a network structure in which **each node such as computers, printers, laptops, servers, etc. is directly connected to a central device**, usually a **network switch or server**.
+
+Each device has its **own dedicated cable** that connects its **Network Interface Card (NIC)** to the central switch. Because of this, star topology is one of the **most popular and commonly used network topologies**.
+
+The central computer is often called a **server**, and the computers connected to it are known as **clients or workstations**.
+
+
+## How Communication Works
+
+During data transmission:
+
+* The message **first goes to the central switch/server**
+* The central device then **controls and forwards the data** to the correct destination device
+* All communication between devices happens **through the central device**
+
+> In this topology, remote terminals or devices **can be geographically spread over a wide area**.
+
+
+## Advantages of Star Network Topology
+
+* Requires **less line cost** because connecting *n* nodes needs *(n − 1)* cables
+* If **one workstation fails**, it does **not affect** communication of other devices
+* Adding a **new node is easy**—only one cable connection is required
+* **Transmission delay does not increase** when new devices are added
+* **Fault detection, traffic control, and network management** are simple
+
+
+## Disadvantages of Star Network Topology
+
+* The **entire network depends on the central device**
+* If the **server or switch fails**, the **whole network stops working**
+* **Distributed processing capability is limited**
+
+
+### Summary
+
+> **Star topology** is a reliable and easy-to-manage network topology where all devices connect to a central switch or server. It provides good performance and fault isolation, but failure of the central device can bring down the entire network.
+
