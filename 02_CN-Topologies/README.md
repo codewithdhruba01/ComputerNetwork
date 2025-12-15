@@ -394,3 +394,38 @@ Mesh topology is mainly used in **critical and high-reliability networks** such 
 
 ---
 
+# Tree Topology
+
+**Tree Network Topology** is a **hierarchical network structure** where computers are arranged like a **tree**. There is a **main (root) node** at the top, and all other nodes are connected in **levels or branches** below it.
+
+Each lower-level device is controlled by its **upper-level device**, and data flows from the root to branches and then to leaf nodes. Because of this structure, tree topology is also called **Hierarchical Topology** or **Vertical Topology**.
+
+It is commonly used in **large organizations**, **LANs**, and **enterprise networks** where structured control and scalability are required.
+
+
+## Key Points (For Interview)
+
+* Combination of **Star and Bus topology**
+* Organized in **levels (root, intermediate, leaf nodes)**
+* Easy to **manage and expand**
+* Centralized control at higher levels
+* Failure of upper-level node affects lower nodes
+
+## Advantages
+
+* Easy **network management and control**
+* Simple to **add new nodes** at lower levels
+* Suitable for **large and scalable networks**
+* Error detection is easier due to hierarchy
+
+
+## Disadvantages
+
+* Failure of **root or intermediate node** can disrupt the network
+* More **cabling** compared to simple topologies
+* Complex structure when network grows very large
+
+## One-Line Interview Answer
+
+> **Tree topology is a hierarchical network structure where nodes are arranged in levels, providing easy management and scalability but suffering from single-point failure at higher levels.**
+
