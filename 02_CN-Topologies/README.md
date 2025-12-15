@@ -357,3 +357,40 @@ Ring networks often use **bit-serial transmission media**, such as:
 
 > **Ring topology** connects devices in a circular loop where data flows from one node to the next. It provides equal access to the network but can suffer from delays and complexity as the network grows.
 
+---
+
+# Mesh Topology
+
+**Mesh Network Topology** is a network structure in which **each device is connected to every other device** through **point-to-point links**. Because multiple paths exist between devices, data can travel through different routes if one path fails.
+In a **full mesh**, all devices are directly connected to each other, while in a **partial mesh**, only some devices have multiple connections.
+
+Mesh topology is mainly used in **critical and high-reliability networks** such as backbone networks, military systems, and WANs.
+
+## Key Points
+
+* Each node has **multiple paths** to other nodes
+* Provides **high reliability and fault tolerance**
+* Failure of one link **does not affect the entire network**
+* Requires **more cables and higher cost**
+* Installation and maintenance are **complex**
+
+## Advantages
+
+* Very **reliable and robust**
+* **Easy fault detection**
+* High **security and privacy**
+* No data congestion because links are dedicated
+
+## Disadvantages
+
+* **High cabling and hardware cost**
+* Difficult to **install and manage**
+* Not suitable for small networks
+
+
+## One-Line Interview Answer
+
+> **Mesh topology connects every device to all other devices, providing maximum reliability and fault tolerance, but at the cost of high complexity and expense.**
+
+---
+
