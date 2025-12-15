@@ -316,3 +316,44 @@ During data transmission:
 
 > **Star topology** is a reliable and easy-to-manage network topology where all devices connect to a central switch or server. It provides good performance and fault isolation, but failure of the central device can bring down the entire network.
 
+---
+
+# Ring Network Topology
+
+A **Ring Network Topology** is a network structure in which multiple computers or devices are connected in a **closed circular loop** using a single communication medium. Each device is connected to **exactly two other devices**, forming a ring shape.
+
+In this topology, **data travels around the ring from one device to the next** until it reaches the intended destination. The topology is called a *ring* because of this **circular flow of data**.
+Generally, data flow in a ring topology is **unidirectional**, meaning data moves in **one direction only**. However, in some cases, it can also be **bidirectional**, where data can flow in **both directions**.
+
+> Ring topology is a popular method of network configuration and is commonly represented using a circular diagram.
+
+
+### Data Transmission in Ring Topology
+
+* Data is passed **from one workstation to another**
+* Each device acts as a **repeater**, forwarding data to the next device
+* Data keeps moving around the ring until it reaches the target node
+
+Ring networks often use **bit-serial transmission media**, such as:
+
+* Twisted pair cables
+* Coaxial cables
+
+> A **master clock** may be used to synchronize communication between stations, or timing information may be embedded in the data itself to prevent network flooding.
+
+## Advantages of Ring Topology
+
+* It is a **truly distributed data processing system**
+* No central device is required, making it **more decentralized than star topology**
+* If one station or link fails, **alternate routing is possible** in some implementations
+
+## Disadvantages of Ring Topology
+
+* **Communication delay increases** as the number of nodes increases
+* It requires **complex control and management software**
+* Failure of a single node or cable can **affect the entire network** (in basic ring setups)
+
+### Summary
+
+> **Ring topology** connects devices in a circular loop where data flows from one node to the next. It provides equal access to the network but can suffer from delays and complexity as the network grows.
+
