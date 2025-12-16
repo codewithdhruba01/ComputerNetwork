@@ -318,7 +318,7 @@ During data transmission:
 
 ---
 
-# Ring Network Topology
+# Ring Topology
 
 A **Ring Network Topology** is a network structure in which multiple computers or devices are connected in a **closed circular loop** using a single communication medium. Each device is connected to **exactly two other devices**, forming a ring shape.
 
@@ -429,3 +429,38 @@ It is commonly used in **large organizations**, **LANs**, and **enterprise netwo
 
 > **Tree topology is a hierarchical network structure where nodes are arranged in levels, providing easy management and scalability but suffering from single-point failure at higher levels.**
 
+---
+
+# Hybrid Topology
+
+**Hybrid Network Topology** is a network structure that is created by **combining two or more different network topologies**, such as **Star, Bus, Ring, Tree, or Mesh**.
+It is called *hybrid* because it inherits the **features, advantages, and limitations** of all the topologies used in its design.
+Hybrid topology is mostly used in **large organizations, WANs, and the Internet**, where different departments or locations require different network structures.
+
+## Key Points
+
+* Combination of **multiple topologies**
+* Highly **flexible and scalable**
+* Used in **large and complex networks**
+* Failure in one topology **does not affect the entire network**
+* Design and maintenance are **complex**
+
+## Advantages
+
+* Very **flexible** network design
+* **High reliability** and fault tolerance
+* Easy to **expand or modify**
+* Suitable for **large enterprises**
+* Better **performance and load handling**
+
+## Disadvantages
+
+* **High cost** of installation
+* **Complex configuration and maintenance**
+* Requires **skilled network administrators**
+
+## One-Line Interview Answer
+
+> **Hybrid topology is a network design formed by combining two or more topologies to achieve flexibility, scalability, and reliability.**
+
+---
