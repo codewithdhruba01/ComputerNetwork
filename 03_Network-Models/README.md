@@ -1,4 +1,4 @@
-# TCP/IP Model
+# 1. TCP/IP Model
 
 The **TCP/IP Model** stands for **Transmission Control Protocol / Internet Protocol**.
 It is the **fundamental communication model of the Internet** and was developed **before the OSI model**.
@@ -82,3 +82,99 @@ The TCP/IP model explains **how data is sent, routed, and received** over networ
 * Platform-independent
 * Highly **scalable and reliable**
 * Used in **real-world networking**
+
+---
+
+
+# 2. What is the OSI Model?
+
+The **OSI (Open Systems Interconnection) Model** was developed by the **International Organization for Standardization (ISO)**. It allows different communication systems to communicate using standard protocols. The OSI model provides a layered framework that explains how data should be transmitted between different systems over a network.
+
+In simple words, the OSI model is a standard that helps computers from different vendors communicate with each other.
+
+The OSI model divides network communication into **seven layers**. Each layer has a specific role and provides services to the layer above while receiving services from the layer below.
+
+
+## Layers of the OSI Model
+
+The seven layers of the OSI model are:
+
+### Physical Layer
+
+Responsible for transmitting raw bits over a physical medium such as cables. It deals with voltages, data rates, connectors, and hardware.
+
+### Data Link Layer
+
+Ensures reliable transfer of data frames between two directly connected nodes. It handles error detection and uses MAC addresses.
+
+### Network Layer
+
+Manages the delivery of packets from the source to the destination across multiple networks. It handles logical addressing and routing.
+**Examples:** IP
+
+### Transport Layer
+
+Provides end-to-end communication between hosts. It ensures complete data delivery with error control and flow control.
+**Examples:** TCP, UDP
+
+### Session Layer
+
+Establishes, manages, and terminates sessions between applications. It controls dialog and synchronization.
+
+### Presentation Layer
+
+Translates data formats, and handles encryption, decryption, and compression so that data is understandable by the receiver.
+
+### Application Layer
+
+The topmost layer that provides network services directly to user applications.
+**Examples:** HTTP, FTP, SMTP, DNS
+
+
+## How Does the OSI Model Work?
+
+Data moves from the **Application layer down to the Physical layer** at the sender side.
+It travels across the network and then moves **up from the Physical layer to the Application layer** at the receiver side.
+
+Each layer performs its own function and passes the data to the next layer.
+
+
+## Network Support vs User Support Layers
+
+* **Network Support Layers:**
+  Physical, Data Link, Network – deal with physical transmission of data.
+
+* **User Support Layers:**
+  Session, Presentation, Application – help user applications communicate.
+
+* **Transport Layer:**
+  Acts as a link between the two groups.
+
+
+## Characteristics of OSI Model
+
+* The **top layers** focus on software and user interaction.
+* The **bottom layers** deal with hardware and physical data transmission.
+* Each layer has a well-defined function.
+* Changes in one layer do not affect others.
+
+
+## Advantages of OSI Model
+
+* It is a standard reference model for networking.
+* Helps in understanding and designing networks.
+* Supports both connection-oriented and connectionless services.
+* Makes troubleshooting easier by isolating problems to specific layers.
+* Adaptable to different protocols.
+
+## Disadvantages of OSI Model
+
+* Session and Presentation layers are less useful in real networks.
+* Some functions are repeated across layers.
+* Layers must work sequentially, which can add complexity.
+* It is mostly theoretical and not directly implemented like TCP/IP.
+
+
+## In Short
+
+> The OSI model is a 7-layer framework that explains how data is transmitted from one computer to another over a network in a standardized way.
