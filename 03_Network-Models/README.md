@@ -178,3 +178,21 @@ Each layer performs its own function and passes the data to the next layer.
 ## In Short
 
 > The OSI model is a 7-layer framework that explains how data is transmitted from one computer to another over a network in a standardized way.
+
+
+## Difference between OSI and TCP/IP Model
+
+| **OSI Model**                                                                                | **TCP/IP Model**                                                                          |
+| -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| OSI stands for **Open System Interconnection**.                                              | TCP/IP stands for **Transmission Control Protocol / Internet Protocol**.                  |
+| OSI is a **generic, protocol-independent** reference model.                                  | TCP/IP is based on **standard protocols** used on the Internet.                           |
+| OSI model was **developed first**, then protocols were created.                              | In TCP/IP, **protocols were developed first**, then the model was built.                  |
+| OSI model provides **quality services**.                                                     | TCP/IP model does **not focus on quality services**.                                      |
+| OSI clearly defines **services, interfaces, and protocols** for each layer.                  | TCP/IP does **not clearly separate** services, interfaces, and protocols.                 |
+| OSI model hides protocols and can be replaced easily.                                        | TCP/IP protocols are **not hidden** and are fixed.                                        |
+| OSI model is considered **more complex**.                                                    | TCP/IP model is **simpler and practical**.                                                |
+| OSI supports both **connection-oriented and connectionless** communication in network layer. | TCP/IP uses **connectionless IP** at network layer and both TCP & UDP at transport layer. |
+| OSI uses a **vertical approach**.                                                            | TCP/IP uses a **horizontal approach**.                                                    |
+| OSI model has **7 layers**.                                                                  | TCP/IP model has **4 layers**.                                                            |
+| OSI is mainly used as a **reference/teaching model**.                                        | TCP/IP is used in **real networks and the Internet**.                                     |
+
