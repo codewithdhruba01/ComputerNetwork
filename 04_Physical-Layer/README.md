@@ -197,6 +197,8 @@ Where SNR = Signal-to-Noise Ratio
 
 ## **Switching Techniques**
 
+![Resource Sharing](../Assets/switching.jpg)
+
 ### **1. Circuit Switching**
 - Dedicated path established between sender and receiver
 - Resources reserved for entire communication
