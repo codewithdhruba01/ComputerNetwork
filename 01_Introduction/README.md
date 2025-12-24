@@ -80,6 +80,8 @@ The following are the **types of computer networks**:
 
 ## **1. Resource Sharing**
 
+![Resource Sharing](../Assets/Resource_sharing.png)
+
 * Network ka main purpose → **resource share karna**.
 * Ek computer ke programs, data, printer, storage dusre computers use kar sakte hain.
 * **Load sharing**: Ek bada kaam network ke multiple computers me divide hokar fast ho jata hai.

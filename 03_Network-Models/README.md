@@ -130,6 +130,7 @@ Translates data formats, and handles encryption, decryption, and compression so 
 The topmost layer that provides network services directly to user applications.
 **Examples:** HTTP, FTP, SMTP, DNS
 
+![Resource Sharing](../Assets/OSI_model.png)
 
 ## How Does the OSI Model Work?
 
