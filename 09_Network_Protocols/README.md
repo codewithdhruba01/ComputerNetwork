@@ -27,3 +27,61 @@ transmission over a shared communication channel.
   - The sender waits for a random amount of time
   - The frame is retransmitted
 - This process continues until the frame is transmitted successfully
+
+## Types of ALOHA Protocol
+There are **two main versions** of the ALOHA Protocol:
+
+1. Pure ALOHA  
+2. Slotted ALOHA  
+
+## Pure ALOHA
+In Pure ALOHA:
+- Transmission time is **continuous**
+- A station can transmit data at any time
+- There is no concept of fixed time slots
+
+### Drawbacks
+- High probability of collisions
+- Low channel utilization
+- Maximum throughput ≈ **18%**
+
+## Slotted ALOHA
+Slotted ALOHA is an improved version of Pure ALOHA.
+
+### Working
+- The shared channel is divided into **equal time slots**
+- A station can transmit data only at the **beginning of a time slot**
+- Random transmissions are avoided
+
+### When does collision occur?
+- When multiple stations attempt to transmit at the beginning of the same slot
+
+### Advantages
+- Reduced number of collisions
+- Better channel utilization
+- Maximum throughput ≈ **36%**
+
+---
+
+## Comparison: Pure ALOHA vs Slotted ALOHA
+
+| Feature | Pure ALOHA | Slotted ALOHA |
+|-------|------------|---------------|
+| Time | Continuous | Slot-based |
+| Transmission | Anytime | At slot start |
+| Collision | High | Lower |
+| Efficiency | Low (~18%) | Higher (~36%) |
+| Synchronization | Not required | Required |
+
+
+## Key Points
+- ALOHA is a simple but inefficient protocol
+- Slotted ALOHA performs better than Pure ALOHA
+- These protocols laid the foundation for modern networking techniques
+- Modern networks mostly use **CSMA/CD** and **CSMA/CA**
+
+
+## Conclusion
+The ALOHA Protocol played an important role in the development of computer
+networks. Although it is not widely used today, it provided the basic concepts
+of **multiple access communication** that influenced modern network protocols.
